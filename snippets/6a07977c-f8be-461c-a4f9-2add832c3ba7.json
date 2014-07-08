@@ -1,0 +1,12 @@
+{
+  "uuid": "6a07977c-f8be-461c-a4f9-2add832c3ba7",
+  "name": "SCOUT Config wrapText",
+  "description": "getConfigured method for the Wrap Text property",
+  "keywords": [
+    "configured"
+  ],
+  "tags": [
+    "scout"
+  ],
+  "code": "@Override\r\nprotected boolean getConfiguredWrapText() {\r\n  return ${return:link(true,false)};\r\n}"
+}

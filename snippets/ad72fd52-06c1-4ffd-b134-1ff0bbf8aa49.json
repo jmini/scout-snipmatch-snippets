@@ -1,0 +1,12 @@
+{
+  "uuid": "ad72fd52-06c1-4ffd-b134-1ff0bbf8aa49",
+  "name": "SCOUT Config headerText",
+  "description": "getConfigured method for the Header Text property",
+  "keywords": [
+    "configured"
+  ],
+  "tags": [
+    "scout"
+  ],
+  "code": "@Override\r\nprotected String getConfiguredHeaderText() {\r\n  return ${textsType:newType(org.eclipse.scout.rt.shared.TEXTS)}.get(\"${cursor}\");\r\n}"
+}

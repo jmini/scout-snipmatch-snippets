@@ -1,0 +1,12 @@
+{
+  "uuid": "ae207c05-faa0-45b3-a0b0-253f82d6b785",
+  "name": "SCOUT Config hasTime",
+  "description": "getConfigured method for the HasTime property",
+  "keywords": [
+    "configured"
+  ],
+  "tags": [
+    "scout"
+  ],
+  "code": "@Override\r\nprotected boolean getConfiguredHasTime() {\r\n  return ${return:link(true,false)};\r\n}"
+}

@@ -1,0 +1,12 @@
+{
+  "uuid": "aa578e4f-4033-40d3-8170-ab57f4884037",
+  "name": "SCOUT Config mandatory",
+  "description": "getConfigured method for the Mandatory property",
+  "keywords": [
+    "configured"
+  ],
+  "tags": [
+    "scout"
+  ],
+  "code": "@Override\r\nprotected boolean getConfiguredMandatory() {\r\n  return ${return:link(true,false)};\r\n}"
+}

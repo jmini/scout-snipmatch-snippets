@@ -1,0 +1,12 @@
+{
+  "uuid": "9fa8f0bd-9975-4a5b-aeab-2bd8a1d44348",
+  "name": "SCOUT Config editable",
+  "description": "getConfigured method for the Editable property",
+  "keywords": [
+    "configured"
+  ],
+  "tags": [
+    "scout"
+  ],
+  "code": "@Override\r\nprotected boolean getConfiguredEditable() {\r\n  return ${return:link(true,false)};\r\n}"
+}

@@ -1,0 +1,13 @@
+{
+  "uuid": "f5cae8b3-98a5-4954-a578-a4bcdca19980",
+  "name": "SCOUT Config maxLength",
+  "description": "getConfigured method for the Max Length property",
+  "keywords": [
+    "configured",
+    "text"
+  ],
+  "tags": [
+    "scout"
+  ],
+  "code": "@Override\r\nprotected int getConfiguredMaxLength() {\r\n  return ${return:link(50,100,10,20,30,80)};\r\n}"
+}
