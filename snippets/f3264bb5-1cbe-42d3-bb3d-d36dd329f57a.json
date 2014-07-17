@@ -1,0 +1,12 @@
+{
+  "uuid": "f3264bb5-1cbe-42d3-bb3d-d36dd329f57a",
+  "name": "SCOUT Config keyStroke",
+  "description": "getConfigured method for the Key Stroke property",
+  "extraSearchTerms": [
+    "configured"
+  ],
+  "tags": [
+    "scout"
+  ],
+  "code": "@Override\r\nprotected String getConfiguredKeyStroke() {\r\n  return \"${cursor}\";\r\n}"
+}

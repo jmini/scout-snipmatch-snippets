@@ -1,0 +1,12 @@
+{
+  "uuid": "500da4d8-1382-433c-bae4-09e5fb8a3451",
+  "name": "SCOUT Config visible",
+  "description": "getConfigured method for the Visible property",
+  "extraSearchTerms": [
+    "configured"
+  ],
+  "tags": [
+    "scout"
+  ],
+  "code": "@Override\r\nprotected boolean getConfiguredVisible() {\r\n  return ${return:link(false,true)};\r\n}"
+}

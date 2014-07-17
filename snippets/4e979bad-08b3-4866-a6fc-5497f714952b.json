@@ -1,0 +1,12 @@
+{
+  "uuid": "4e979bad-08b3-4866-a6fc-5497f714952b",
+  "name": "SCOUT Config modal",
+  "description": "getConfigured method for the Modal property",
+  "extraSearchTerms": [
+    "configured"
+  ],
+  "tags": [
+    "scout"
+  ],
+  "code": "@Override\r\nprotected boolean getConfiguredModal() {\r\n  return ${return:link(false,true)};\r\n}"
+}

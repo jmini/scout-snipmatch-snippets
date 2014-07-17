@@ -1,0 +1,13 @@
+{
+  "uuid": "adacc260-f75e-43a9-932e-579cc551d456",
+  "name": "SCOUT Config gridH",
+  "description": "getConfigured method for the Grid H property",
+  "extraSearchTerms": [
+    "configured",
+    "height"
+  ],
+  "tags": [
+    "scout"
+  ],
+  "code": "@Override\r\nprotected int getConfiguredGridH() {\r\n  return ${return:link(5,1,2,3,4,10)};\r\n}"
+}
