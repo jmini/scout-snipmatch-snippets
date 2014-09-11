@@ -1,0 +1,14 @@
+{
+  "uuid": "ff44b158-3b4d-4f0f-ba06-5d9ab7bd134e",
+  "name": "SCOUT Config gridW",
+  "description": "getConfigured method for the Grid W property",
+  "extraSearchTerms": [
+    "configured",
+    "width"
+  ],
+  "tags": [
+    "scout"
+  ],
+  "code": "@Override\r\nprotected int getConfiguredGridW() {\r\n  return ${return:link(2,3,4,5,10,1)};\r\n}",
+  "location": "JAVA_TYPE_MEMBERS"
+}

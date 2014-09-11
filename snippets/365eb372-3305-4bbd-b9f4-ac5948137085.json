@@ -1,0 +1,13 @@
+{
+  "uuid": "365eb372-3305-4bbd-b9f4-ac5948137085",
+  "name": "SCOUT Config trayVisible",
+  "description": "getConfigured method for the TrayVisible property",
+  "extraSearchTerms": [
+    "configured"
+  ],
+  "tags": [
+    "scout"
+  ],
+  "code": "@Override\r\nprotected boolean getConfiguredTrayVisible() {\r\n  return ${return:link(true,false)};\r\n}",
+  "location": "JAVA_TYPE_MEMBERS"
+}

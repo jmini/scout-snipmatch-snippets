@@ -1,0 +1,13 @@
+{
+  "uuid": "3100ed50-4edf-425d-a819-f86e12334fd8",
+  "name": "SCOUT Config title",
+  "description": "getConfigured method for the Title property",
+  "extraSearchTerms": [
+    "configured"
+  ],
+  "tags": [
+    "scout"
+  ],
+  "code": "@Override\r\nprotected String getConfiguredTitle() {\r\n  return ${textsType:newType(org.eclipse.scout.rt.shared.TEXTS)}.get(\"${cursor}\");\r\n}",
+  "location": "JAVA_TYPE_MEMBERS"
+}
