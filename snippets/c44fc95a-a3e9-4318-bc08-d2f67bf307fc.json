@@ -2,7 +2,10 @@
   "uuid": "c44fc95a-a3e9-4318-bc08-d2f67bf307fc",
   "name": "SCOUT create IntegerColumn",
   "description": "Create a new integer column as inner class",
-  "extraSearchTerms": [],
+  "extraSearchTerms": [
+    "int",
+    "intcolumn"
+  ],
   "tags": [
     "scout",
     "column"
