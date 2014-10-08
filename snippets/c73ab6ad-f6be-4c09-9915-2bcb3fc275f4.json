@@ -10,5 +10,12 @@
     "scout"
   ],
   "code": "@Override\r\nprotected int getConfiguredWidth() {\r\n  return ${return:link(150,100,50, 200)};\r\n}",
-  "location": "JAVA_TYPE_MEMBERS"
+  "location": "JAVA_TYPE_MEMBERS",
+  "dependencies": [
+    {
+      "groupId": "org.eclipse.scout",
+      "artifactId": "org.eclipse.scout.rt.client",
+      "version": "0.0.0"
+    }
+  ]
 }

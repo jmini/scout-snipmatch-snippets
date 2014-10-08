@@ -8,5 +8,12 @@
     "logging"
   ],
   "code": "private static final ${loggerType:newType(org.eclipse.scout.commons.logger.IScoutLogger)} ${logger:link(LOG,LOGGER,logger)} \u003d ${managerType:newType(org.eclipse.scout.commons.logger.ScoutLogManager)}.getLogger(${enclosing_type}.class);",
-  "location": "JAVA_TYPE_MEMBERS"
+  "location": "JAVA_TYPE_MEMBERS",
+  "dependencies": [
+    {
+      "groupId": "org.eclipse.scout",
+      "artifactId": "org.eclipse.scout.commons",
+      "version": "0.0.0"
+    }
+  ]
 }

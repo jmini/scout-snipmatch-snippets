@@ -8,5 +8,12 @@
     "column"
   ],
   "code": "@Order(10.0)\r\npublic class ${clsName:newName(LongColumn)} extends ${cls:newType(org.eclipse.scout.rt.client.ui.basic.table.columns.AbstractLongColumn)} {\r\n  ${cursor}\r\n} \r\n${:import(org.eclipse.scout.commons.annotations.Order)}\r\n",
-  "location": "JAVA_TYPE_MEMBERS"
+  "location": "JAVA_TYPE_MEMBERS",
+  "dependencies": [
+    {
+      "groupId": "org.eclipse.scout",
+      "artifactId": "org.eclipse.scout.rt.client",
+      "version": "0.0.0"
+    }
+  ]
 }

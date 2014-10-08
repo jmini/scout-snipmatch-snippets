@@ -9,5 +9,12 @@
     "scout"
   ],
   "code": "@Override\r\nprotected String getConfiguredKeyStroke() {\r\n  return \"${cursor}\";\r\n}",
-  "location": "JAVA_TYPE_MEMBERS"
+  "location": "JAVA_TYPE_MEMBERS",
+  "dependencies": [
+    {
+      "groupId": "org.eclipse.scout",
+      "artifactId": "org.eclipse.scout.rt.client",
+      "version": "0.0.0"
+    }
+  ]
 }
