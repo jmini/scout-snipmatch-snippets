@@ -1,0 +1,13 @@
+{
+  "uuid": "f80d84a4-1f43-4a20-b24b-c15fca798bdf",
+  "name": "SCOUT Config multilineText",
+  "description": "getConfigured method for the Multiline Text property",
+  "extraSearchTerms": [
+    "configured"
+  ],
+  "tags": [
+    "scout"
+  ],
+  "code": "@Override\r\nprotected boolean getConfiguredMultilineText() {\r\n  return ${return:link(true,false)};\r\n}",
+  "location": "JAVA_TYPE_MEMBERS"
+}

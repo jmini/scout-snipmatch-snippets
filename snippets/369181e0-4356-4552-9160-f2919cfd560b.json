@@ -1,0 +1,13 @@
+{
+  "uuid": "369181e0-4356-4552-9160-f2919cfd560b",
+  "name": "SCOUT Config gridColumnCount",
+  "description": "getConfigured method for the Grid Column Count property",
+  "extraSearchTerms": [
+    "configured"
+  ],
+  "tags": [
+    "scout"
+  ],
+  "code": "@Override\r\nprotected int getConfiguredGridColumnCount() {\r\n  return ${return:link(1,2,3,4,5,10)};\r\n}",
+  "location": "JAVA_TYPE_MEMBERS"
+}

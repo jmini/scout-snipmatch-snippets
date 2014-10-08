@@ -1,0 +1,13 @@
+{
+  "uuid": "4780374b-4f57-4b54-b0ca-574d9cbde0ea",
+  "name": "SCOUT Config label",
+  "description": "getConfigured method for the Label property",
+  "extraSearchTerms": [
+    "configured"
+  ],
+  "tags": [
+    "scout"
+  ],
+  "code": "@Override\r\nprotected String getConfiguredLabel() {\r\n  return ${textsType:newType(org.eclipse.scout.rt.shared.TEXTS)}.get(\"${cursor}\");\r\n}",
+  "location": "JAVA_TYPE_MEMBERS"
+}

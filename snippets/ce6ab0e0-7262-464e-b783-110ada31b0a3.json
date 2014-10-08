@@ -1,0 +1,13 @@
+{
+  "uuid": "ce6ab0e0-7262-464e-b783-110ada31b0a3",
+  "name": "SCOUT Config inheritAccessibility",
+  "description": "getConfigured method for the Inherit Accessibility property",
+  "extraSearchTerms": [
+    "configured"
+  ],
+  "tags": [
+    "scout"
+  ],
+  "code": "@Override\r\nprotected boolean getConfiguredInheritAccessibility() {\r\n  return ${return:link(false,true)};\r\n}",
+  "location": "JAVA_TYPE_MEMBERS"
+}

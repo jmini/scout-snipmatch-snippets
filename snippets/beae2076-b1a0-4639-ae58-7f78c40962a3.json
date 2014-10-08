@@ -1,0 +1,13 @@
+{
+  "uuid": "beae2076-b1a0-4639-ae58-7f78c40962a3",
+  "name": "SCOUT Config separator",
+  "description": "getConfigured method for the Separator property",
+  "extraSearchTerms": [
+    "configured"
+  ],
+  "tags": [
+    "scout"
+  ],
+  "code": "@Override\r\nprotected boolean getConfiguredSeparator() {\r\n  return ${return:link(true,false)};\r\n}",
+  "location": "JAVA_TYPE_MEMBERS"
+}
